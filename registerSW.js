@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/notifications-pwa/sw.js', { scope: '/notifications-pwa/' })})}
